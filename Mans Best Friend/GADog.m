@@ -10,4 +10,15 @@
 
 @implementation GADog
 
+-(void)bark
+{
+    NSLog(@"WOOF WOOF!");
+}
+
+-(void)barkANumberOfTimes:(int)numberOfTimes{
+    for(int i = 0; i < numberOfTimes; i++){
+        [self bark];
+    }
+}
+
 @end

@@ -19,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    GADog *myDog = [[GADog alloc] init];
+    myDog.name = @"Nana";
+    myDog.breed = @"St. Bernard";
+    myDog.age = 1;
+    //[object method]
+    //[myDog bark];
+    [myDog barkANumberOfTimes:2];
     
 }
 

@@ -21,7 +21,7 @@
 		32BA7F8318C5D10200D5480F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BA7F6518C5D10200D5480F /* UIKit.framework */; };
 		32BA7F8B18C5D10200D5480F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32BA7F8918C5D10200D5480F /* InfoPlist.strings */; };
 		32BA7F8D18C5D10200D5480F /* Mans_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BA7F8C18C5D10200D5480F /* Mans_Best_FriendTests.m */; };
-		32BA7F9818C5D12500D5480F /* GADog.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BA7F9718C5D12500D5480F /* GADog.m */; };
+		32BA7F9B18C5D5EF00D5480F /* GADog.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BA7F9A18C5D5EF00D5480F /* GADog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		32BA7F8818C5D10200D5480F /* Mans Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mans Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		32BA7F8A18C5D10200D5480F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32BA7F8C18C5D10200D5480F /* Mans_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mans_Best_FriendTests.m; sourceTree = "<group>"; };
-		32BA7F9618C5D12500D5480F /* GADog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADog.h; path = ../GADog.h; sourceTree = "<group>"; };
-		32BA7F9718C5D12500D5480F /* GADog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GADog.m; path = ../GADog.m; sourceTree = "<group>"; };
+		32BA7F9918C5D5EF00D5480F /* GADog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADog.h; sourceTree = "<group>"; };
+		32BA7F9A18C5D5EF00D5480F /* GADog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 				32BA7F7318C5D10200D5480F /* Main.storyboard */,
 				32BA7F7618C5D10200D5480F /* GAViewController.h */,
 				32BA7F7718C5D10200D5480F /* GAViewController.m */,
-				32BA7F9618C5D12500D5480F /* GADog.h */,
-				32BA7F9718C5D12500D5480F /* GADog.m */,
+				32BA7F9918C5D5EF00D5480F /* GADog.h */,
+				32BA7F9A18C5D5EF00D5480F /* GADog.m */,
 				32BA7F7918C5D10200D5480F /* Images.xcassets */,
 				32BA7F6818C5D10200D5480F /* Supporting Files */,
 			);
@@ -255,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32BA7F9818C5D12500D5480F /* GADog.m in Sources */,
+				32BA7F9B18C5D5EF00D5480F /* GADog.m in Sources */,
 				32BA7F7218C5D10200D5480F /* GAAppDelegate.m in Sources */,
 				32BA7F7818C5D10200D5480F /* GAViewController.m in Sources */,
 				32BA7F6E18C5D10200D5480F /* main.m in Sources */,
