@@ -15,9 +15,29 @@
     NSLog(@"WOOF WOOF!");
 }
 
--(void)barkANumberOfTimes:(int)numberOfTimes{
-    for(int i = 0; i < numberOfTimes; i++){
+-(void)barkANumberOfTimes:(int)numberOfTimes
+{
+    for(int i = 0; i < numberOfTimes; i++)
+    {
         [self bark];
+    }
+}
+
+-(void)changeBreedToWerewolf{
+    self.breed = @"Werewolf";
+}
+
+-(void)barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud
+{
+    if(!isLoud){
+        for(int i = 0; i < numberOfTimes; i++){
+            NSLog(@"yip yip");
+        }
+    }
+    else{
+        for(int i = 0; i < numberOfTimes; i++){
+            NSLog(@"BARK BARK");
+        }
     }
 }
 

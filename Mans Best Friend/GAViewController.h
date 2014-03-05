@@ -10,4 +10,6 @@
 
 @interface GAViewController : UIViewController
 
+-(void)printHelloWorld;
+
 @end

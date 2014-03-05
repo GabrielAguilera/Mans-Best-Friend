@@ -23,9 +23,20 @@
     myDog.name = @"Nana";
     myDog.breed = @"St. Bernard";
     myDog.age = 1;
+    
     //[object method]
     //[myDog bark];
-    [myDog barkANumberOfTimes:2];
+    //[myDog barkANumberOfTimes:2];
+    //how to call methods with multiple arguements.
+    [myDog barkANumberOfTimes:5 loudly:NO];
+    //Note the syntax for printing is %@ when dealing with objects.
+    //Can't use primitives.
+    NSLog(@"%@", myDog.breed);
+    [myDog changeBreedToWerewolf];
+    NSLog(@"%@", myDog.breed);
+    
+    
+    [self printHelloWorld];
     
 }
 
@@ -33,6 +44,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)printHelloWorld
+{
+    NSLog(@"Hello World!");
 }
 
 @end
