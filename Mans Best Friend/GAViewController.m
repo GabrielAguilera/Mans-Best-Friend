@@ -23,22 +23,20 @@
     myDog.name = @"Nana";
     myDog.breed = @"St. Bernard";
     myDog.age = 1;
+    myDog.image = [UIImage imageNamed:@"St.Bernard.JPG"];
     
-    int dogYears = [myDog ageInDogYearsFromAge:myDog.age];
-    NSLog(@"%i",dogYears);
+    self.myImageView.image = myDog.image;
+    self.nameLabel.text = myDog.name;
+    self.breedLabel.text = myDog.breed;
     
     //[object method]
-    //[myDog bark];
     //[myDog barkANumberOfTimes:2];
     
     //how to call methods with multiple arguements.
     //[myDog barkANumberOfTimes:5 loudly:NO];
     
     //Note the syntax for printing is %@ when dealing with objects.
-    //Can't use primitives.
-    NSLog(@"%@", myDog.breed);
-    [myDog changeBreedToWerewolf];
-    NSLog(@"%@", myDog.breed);
+    //NSLog(@"%@", myDog.breed);
     
     
     [self printHelloWorld];

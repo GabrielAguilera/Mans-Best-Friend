@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3219A68218C708ED00EE7E11 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3219A67D18C708ED00EE7E11 /* Bo.jpg */; };
+		3219A68318C708ED00EE7E11 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3219A67E18C708ED00EE7E11 /* BorderCollie.jpg */; };
+		3219A68418C708ED00EE7E11 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3219A67F18C708ED00EE7E11 /* ItalianGreyhound.jpg */; };
+		3219A68518C708ED00EE7E11 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3219A68018C708ED00EE7E11 /* JRT.jpg */; };
+		3219A68618C708ED00EE7E11 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3219A68118C708ED00EE7E11 /* St.Bernard.JPG */; };
 		32BA7F6218C5D10200D5480F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BA7F6118C5D10200D5480F /* Foundation.framework */; };
 		32BA7F6418C5D10200D5480F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BA7F6318C5D10200D5480F /* CoreGraphics.framework */; };
 		32BA7F6618C5D10200D5480F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BA7F6518C5D10200D5480F /* UIKit.framework */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3219A67D18C708ED00EE7E11 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		3219A67E18C708ED00EE7E11 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		3219A67F18C708ED00EE7E11 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		3219A68018C708ED00EE7E11 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		3219A68118C708ED00EE7E11 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
 		32BA7F5E18C5D10200D5480F /* Mans Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mans Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BA7F6118C5D10200D5480F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32BA7F6318C5D10200D5480F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +92,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3219A67C18C708EC00EE7E11 /* dog-image-assets */ = {
+			isa = PBXGroup;
+			children = (
+				3219A67D18C708ED00EE7E11 /* Bo.jpg */,
+				3219A67E18C708ED00EE7E11 /* BorderCollie.jpg */,
+				3219A67F18C708ED00EE7E11 /* ItalianGreyhound.jpg */,
+				3219A68018C708ED00EE7E11 /* JRT.jpg */,
+				3219A68118C708ED00EE7E11 /* St.Bernard.JPG */,
+			);
+			path = "dog-image-assets";
+			sourceTree = "<group>";
+		};
 		32BA7F5518C5D10100D5480F = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +153,7 @@
 		32BA7F6818C5D10200D5480F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3219A67C18C708EC00EE7E11 /* dog-image-assets */,
 				32BA7F6918C5D10200D5480F /* Mans Best Friend-Info.plist */,
 				32BA7F6A18C5D10200D5480F /* InfoPlist.strings */,
 				32BA7F6D18C5D10200D5480F /* main.m */,
@@ -234,8 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3219A68618C708ED00EE7E11 /* St.Bernard.JPG in Resources */,
+				3219A68418C708ED00EE7E11 /* ItalianGreyhound.jpg in Resources */,
 				32BA7F7A18C5D10200D5480F /* Images.xcassets in Resources */,
+				3219A68518C708ED00EE7E11 /* JRT.jpg in Resources */,
 				32BA7F6C18C5D10200D5480F /* InfoPlist.strings in Resources */,
+				3219A68318C708ED00EE7E11 /* BorderCollie.jpg in Resources */,
+				3219A68218C708ED00EE7E11 /* Bo.jpg in Resources */,
 				32BA7F7518C5D10200D5480F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +495,7 @@
 				32BA7F9218C5D10200D5480F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32BA7F9318C5D10200D5480F /* Build configuration list for PBXNativeTarget "Mans Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +504,7 @@
 				32BA7F9518C5D10200D5480F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

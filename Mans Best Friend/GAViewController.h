@@ -12,4 +12,10 @@
 
 -(void)printHelloWorld;
 
+@property (strong, nonatomic) IBOutlet UIImageView *myImageView;
+
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *breedLabel;
+
 @end
