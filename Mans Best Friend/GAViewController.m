@@ -54,7 +54,7 @@
     [self.myDogs addObject:secondDog];
     [self.myDogs addObject:thirdDog];
     [self.myDogs addObject:fourthDog];
-    NSLog(@"%@", self.myDogs);
+    //NSLog(@"%@", self.myDogs);
     
     
     //[object method]
@@ -91,10 +91,17 @@
     int randomIndex = arc4random() % numberOfDogs;
     
     GADog *randomDog = [self.myDogs objectAtIndex:randomIndex];
-    
-    self.myImageView.image = randomDog.image;
-    self.breedLabel.text = randomDog.breed;
-    self.nameLabel.text = randomDog.name;
+
+    [UIView transitionWithView:self.view duration:2.5 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+        self.myImageView.image = randomDog.image;
+        self.breedLabel.text = randomDog.breed;
+        self.nameLabel.text = randomDog.name;
+    } completion:^(BOOL finished) {
+        
+    }];
+//    self.myImageView.image = randomDog.image;
+//    self.breedLabel.text = randomDog.breed;
+//    self.nameLabel.text = randomDog.name;
     
     //Update the button that was pressed.
     sender.title = @"And Another";
