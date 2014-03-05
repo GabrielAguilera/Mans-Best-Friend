@@ -20,4 +20,5 @@
 -(void)changeBreedToWerewolf;
 //Below shows how you add multiple arguements to a method.
 -(void)barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud;
+-(int)ageInDogYearsFromAge:(int)regularAge;
 @end

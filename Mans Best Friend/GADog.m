@@ -41,4 +41,11 @@
     }
 }
 
+-(int)ageInDogYearsFromAge:(int)regularAge
+{
+    int revisedAge = regularAge * 7;
+    
+    return revisedAge;
+}
+
 @end

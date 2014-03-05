@@ -24,11 +24,16 @@
     myDog.breed = @"St. Bernard";
     myDog.age = 1;
     
+    int dogYears = [myDog ageInDogYearsFromAge:myDog.age];
+    NSLog(@"%i",dogYears);
+    
     //[object method]
     //[myDog bark];
     //[myDog barkANumberOfTimes:2];
+    
     //how to call methods with multiple arguements.
-    [myDog barkANumberOfTimes:5 loudly:NO];
+    //[myDog barkANumberOfTimes:5 loudly:NO];
+    
     //Note the syntax for printing is %@ when dealing with objects.
     //Can't use primitives.
     NSLog(@"%@", myDog.breed);
